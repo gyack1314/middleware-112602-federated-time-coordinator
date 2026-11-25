@@ -1,0 +1,13 @@
+{"at":0,"kind":"join","record":{"run":"case","endpoint":"axis","boot":1,"applied":0}}
+{"at":0,"kind":"join","record":{"run":"case","endpoint":"scene","boot":1,"applied":0}}
+{"at":0,"kind":"join","record":{"run":"case","endpoint":"independent","boot":1,"applied":0}}
+{"at":1,"kind":"edge","record":{"run":"case","from":"axis","to":"scene","active":true}}
+{"at":2,"kind":"event","record":{"run":"case","event":"touch","from":"axis","boot":1,"to":"scene","tick":4}}
+{"at":3,"kind":"promise","record":{"run":"case","from":"axis","boot":1,"to":"scene","lower":4}}
+{"at":4,"kind":"advance","record":{"run":"case","endpoint":"scene","target":8,"request":"go"}}
+{"at":5,"kind":"advance","record":{"run":"case","endpoint":"independent","target":8,"request":"other"}}
+{"at":6,"kind":"promise","record":{"run":"case","from":"axis","boot":1,"to":"scene","lower":9}}
+{"at":7,"kind":"advance","record":{"run":"case","endpoint":"scene","target":8,"request":"again"}}
+{"at":8,"kind":"restart","record":{}}
+{"at":9,"kind":"join","record":{"run":"case","endpoint":"scene","boot":2,"applied":0}}
+{"at":10,"kind":"inspect","record":{"run":"case","endpoint":"scene"}}

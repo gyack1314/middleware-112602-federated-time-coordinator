@@ -1,0 +1,10 @@
+{"at":0,"kind":"join","record":{"run":"case","endpoint":"view","boot":1,"applied":0}}
+{"at":1,"kind":"advance","record":{"run":"case","endpoint":"view","target":8,"request":"go"}}
+{"at":2,"kind":"applied","record":{"run":"case","endpoint":"view","boot":1,"grant":1,"checkpoint":8,"events":[]}}
+{"at":3,"kind":"join","record":{"run":"case","endpoint":"scene","boot":1,"applied":0}}
+{"at":4,"kind":"edge","record":{"run":"case","from":"scene","to":"view","active":true}}
+{"at":5,"kind":"promise","record":{"run":"case","from":"scene","boot":1,"to":"view","lower":10}}
+{"at":6,"kind":"event","record":{"run":"case","event":"later","from":"scene","boot":1,"to":"view","tick":10}}
+{"at":7,"kind":"edge","record":{"run":"case","from":"scene","to":"view","active":false}}
+{"at":8,"kind":"advance","record":{"run":"case","endpoint":"view","target":11,"request":"next"}}
+{"at":9,"kind":"inspect","record":{"run":"case","endpoint":"view"}}
