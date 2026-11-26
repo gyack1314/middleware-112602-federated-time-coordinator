@@ -1,0 +1,13 @@
+{"at":0,"kind":"join","record":{"run":"crash","endpoint":"joint","boot":1,"applied":0}}
+{"at":0,"kind":"join","record":{"run":"crash","endpoint":"scene","boot":1,"applied":0}}
+{"at":1,"kind":"edge","record":{"run":"crash","from":"joint","to":"scene","active":true}}
+{"at":2,"kind":"event","record":{"run":"crash","event":"pose","from":"joint","boot":1,"to":"scene","tick":3}}
+{"at":3,"kind":"promise","record":{"run":"crash","from":"joint","boot":1,"to":"scene","lower":5}}
+{"at":4,"kind":"advance","record":{"run":"crash","endpoint":"scene","target":9,"request":"s1"}}
+{"at":5,"kind":"restart","record":{}}
+{"at":6,"kind":"join","record":{"run":"crash","endpoint":"joint","boot":2,"applied":0}}
+{"at":7,"kind":"inspect","record":{"run":"crash","endpoint":"scene"}}
+{"at":8,"kind":"promise","record":{"run":"crash","from":"joint","boot":2,"to":"scene","lower":7}}
+{"at":9,"kind":"applied","record":{"run":"crash","endpoint":"scene","boot":1,"grant":1,"checkpoint":3,"events":[1]}}
+{"at":10,"kind":"advance","record":{"run":"crash","endpoint":"scene","target":9,"request":"s2"}}
+{"at":11,"kind":"inspect","record":{"run":"crash","endpoint":"scene"}}

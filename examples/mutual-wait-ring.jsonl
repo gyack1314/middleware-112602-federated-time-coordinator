@@ -1,0 +1,14 @@
+{"at":0,"kind":"join","record":{"run":"ring","endpoint":"joint","boot":1,"applied":0}}
+{"at":0,"kind":"join","record":{"run":"ring","endpoint":"vision","boot":1,"applied":0}}
+{"at":0,"kind":"join","record":{"run":"ring","endpoint":"scene","boot":1,"applied":0}}
+{"at":0,"kind":"join","record":{"run":"ring","endpoint":"logger","boot":1,"applied":0}}
+{"at":1,"kind":"edge","record":{"run":"ring","from":"joint","to":"vision","active":true}}
+{"at":1,"kind":"edge","record":{"run":"ring","from":"vision","to":"joint","active":true}}
+{"at":2,"kind":"advance","record":{"run":"ring","endpoint":"joint","target":10,"request":"j1"}}
+{"at":2,"kind":"advance","record":{"run":"ring","endpoint":"vision","target":10,"request":"v1"}}
+{"at":3,"kind":"advance","record":{"run":"ring","endpoint":"logger","target":10,"request":"l1"}}
+{"at":4,"kind":"inspect","record":{"run":"ring"}}
+{"at":5,"kind":"promise","record":{"run":"ring","from":"joint","boot":1,"to":"vision","lower":6}}
+{"at":6,"kind":"promise","record":{"run":"ring","from":"vision","boot":1,"to":"joint","lower":6}}
+{"at":7,"kind":"advance","record":{"run":"ring","endpoint":"vision","target":10,"request":"v2"}}
+{"at":8,"kind":"inspect","record":{"run":"ring"}}
